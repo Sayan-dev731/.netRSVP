@@ -10,7 +10,7 @@ function generateMemberFields() {
         memberDiv.style.transform = 'translateY(20px)';
 
         memberDiv.innerHTML = `
-            <h3>Team Member ${i + 1}</h3>
+            <h3>Your Details</h3>
             <div class="form-group">
                 <label for="name${i}">Full Name</label>
                 <input type="text" id="name${i}" required placeholder="Enter full name">

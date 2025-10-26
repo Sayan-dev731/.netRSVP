@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameJam Registration</title>
+    <title>.Net 2025 Registration</title>
     <link
         href="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/24/external-xbox-a-video-gaming-brand-created-and-owned-by-microsoft-logo-filled-tal-revivo.png"
         rel="shortcut icon" type="image/x-icon" />
@@ -15,26 +15,20 @@
 
 <body>
     <div class="container">
-        <h2 class="form-title">GameJam Registration</h2>
+        <h2 class="form-title">.NET Overflow'25 Registration</h2>
         <form id="registrationForm">
             <div class="form-group">
-                <label for="teamName">Team Name</label>
-                <input type="text" id="teamName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="memberCount">Number of Team Members</label>
-                <select id="memberCount" onchange="generateMemberFields()">
-                    <option value="1">1 Member</option>
-                    <option value="2">2 Members</option>
-                    <option value="3">3 Members</option>
-                    <option value="4">4 Members</option>
+                <label for="memberCount">Mode of Attending Event</label>
+                <select id="memberCount" onchange="generateMemberFields()" required>
+                    <option value="">Select Mode</option>
+                    <option value="1">Online</option>
+                    <option value="2">Offline</option>
                 </select>
             </div>
 
             <div id="teamMembers"></div>
 
-            <button type="submit" class="submit-btn">Register Team</button>
+            <button type="submit" class="submit-btn">Register</button>
         </form>
     </div>
     <script src="js/register.js"></script>
