@@ -1,0 +1,20 @@
+{
+  "eventName": ".NET Overflow'25",
+  "eventDate": "November 11-13, 2025",
+  "eventDescription": "A dedicated .NET conference featuring latest technologies, cloud, mobile, AI, team development, Web3 and more at Rungta College of Engineering.",
+  "onlineFormUrl": "https://forms.microsoft.com/r/pjwDdDxCNT",
+  "offlineFormUrl": "https://forms.microsoft.com/r/pjwDdDxCNT",
+  "maxOnlineAttendees": 0,
+  "maxOfflineAttendees": 100,
+  "registrationMessage": "Thank you for registering for .NET Overflow'25! You will receive a confirmation email shortly with event details and access information.",
+  "serverConfig": {
+    "port": 3000,
+    "host": "localhost",
+    "staticPath": "public",
+    "rateLimit": {
+      "windowMs": 900000,
+      "max": 100
+    }
+  },
+  "lastUpdated": "2025-10-28T15:20:08.355Z"
+}
