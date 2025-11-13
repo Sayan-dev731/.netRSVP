@@ -82,10 +82,10 @@
             // offline -> go to /register (server-side page) to proceed
             if (val === 'offline') {
                 // Add a query param so register page can detect
-                window.open('https://google.com', '_blank');
+                window.open('https://www.eventbrite.com/e/net-overflow25-offline-tickets-1968807995714?aff=oddtdtcreator', '_blank');
             } else {
                 // online -> open the google form used in site in a new tab
-                window.open('https://forms.gle/FjsztV9xhbEgDntR8', '_blank');
+                window.open('https://events.teams.microsoft.com/event/9d288ee7-6cdb-458d-9e87-c3d8d723ae76@84c31ca0-ac3b-4eae-ad11-519d80233e6f?wt.mc_id=studentamb_297961', '_blank');
             }
         });
 
