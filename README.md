@@ -121,7 +121,7 @@ The server will start on `http://localhost:3000`
 | Setting | Description | Example |
 |---------|-------------|---------|
 | `eventName` | Display name of your event | ".NET Overflow'25" |
-| `eventDate` | Event date/duration | "November 11-13, 2025" |
+| `eventDate` | Event date/duration | "December 11-13, 2025" |
 | `eventDescription` | Brief event description | "A dedicated .NET conference..." |
 | `onlineFormUrl` | Microsoft Forms URL for online registration | `https://forms.office.com/r/ABC123` |
 | `offlineFormUrl` | Microsoft Forms URL for in-person registration | `https://forms.office.com/r/XYZ789` |
